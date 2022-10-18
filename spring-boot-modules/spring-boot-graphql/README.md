@@ -29,4 +29,4 @@ curl \
 --request POST 'localhost:8080/graphql' \
 --header 'Content-Type: application/json' \
 --data-raw '{"query":"mutation {\n    createPost(title: \"New Title\", authorId: \"Author2\", text: \"New Text\") {\n id\n       category\n        author {\n            id\n            name\n        }\n    }\n}"}'
-```
+```,
